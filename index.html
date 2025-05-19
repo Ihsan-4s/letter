@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Surat Untukmu 💌</title>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            background: #fff5f8;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .envelope {
+            background: #fff;
+            border: 2px dashed #ffb6c1;
+            padding: 2rem;
+            border-radius: 20px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .envelope::before {
+            content: '💌';
+            font-size: 2rem;
+            position: absolute;
+            top: -20px;
+            left: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #ff69b4;
+            margin-bottom: 1rem;
+        }
+        .letter {
+            font-size: 1.1rem;
+            color: #444;
+            line-height: 1.8;
+            white-space: pre-wrap;
+        }
+        .signature {
+            text-align: right;
+            margin-top: 2rem;
+            font-style: italic;
+            color: #ff69b4;
+        }
+        footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="envelope" data-aos="fade-up">
+        <h2>Untuk Kamu yang Spesial ✨</h2>
+        <div class="letter">
+            Dear kamu,<br><br>
+            Hari ini aku cuma mau bilang satu hal... kamu hebat banget! 🌸<br>
+            Kadang kita lupa betapa berharganya diri kita sendiri, jadi biar aku ingetin ya:<br>
+            Kamu itu kuat, kamu itu unik, dan kamu pantas untuk bahagia. 💖<br><br>
+            Jangan lupa istirahat, makan yang enak, dan senyum hari ini!<br><br>
+            Semangat terus yaa~
+        </div>
+        <div class="signature">
+            Dengan sayang,<br>
+            Aku 🫶
+        </div>
+    </div>
+    <footer data-aos="fade" data-aos-delay="500">
+        Dibuat dengan cinta 💗
+    </footer>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
